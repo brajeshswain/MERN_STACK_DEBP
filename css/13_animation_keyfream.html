@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation keyframe</title>
+    <style>
+        .container{
+            height: 300px;
+            width: 200;
+            border: 5px solid red;
+            /* border-radius: 50%;
+            animation: orbit 3s linear infine; */
+            margin: 200px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            /* border-radius: 50%; */
+           
+            /* transition: all 2s ease-in; */
+            animation-name: moveBox;
+            animation-duration: 4s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: reverse;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+            
+        }
+        @keyframes orbit{
+            from{
+                transform: rotate(0deg);
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+       @keyframes moveBox{
+        0%{
+           transform: translate(0,0);
+        }
+        25%{
+            transform: translate(200px,0);
+
+        }
+        50%{
+            transform: translate(200px,200px);
+        }
+        75%{
+            transform: translate(0,200px);
+        }
+        100%{
+            transform: translate(0,0);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="box"></div>
+    </div>
+</body>
+</html>

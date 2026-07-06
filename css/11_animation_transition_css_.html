@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition Animation</title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            background-color: blue;
+            border: 2px solid black;
+            margin: 100px;
+            transition-duration: 2s;
+            /* transition-timing-function: steps(3); */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function:ease-out; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: linear; */
+            /* transition-delay: 3s; */
+            transition: all 5s step(3) 3s;
+
+        }
+        div:hover{
+            background-color: red;
+            color: white;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <Div>faaaa</Div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: calibri;
+    
+
+}
+.full{
+    
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+
+}
+.image_contanier{
+    margin: 0 ;
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(web1.jpeg);
+    background-size: cover;
+    background-position: center;    
+    position: relative;
+}
+.sentence{
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sentence h2{
+    font-size: 50px;
+    /* margin-top: 200px; */
+    margin-left: 400px;
+}
+.sentence h3{
+    font-size: 50px;
+    /* margin-right:200px; */
+    margin-top: 50px;
+}
+
+.letter{
+    background-color: black;
+    color:white;
+    border: 50px solid black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style:calibri;
+}   
+.photo_container{
+    display:grid;
+    /* grid-template-columns: 100fr 100fr 100fr 100fr; */
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fit, 1fr, minmax(250px, 1fr));
+
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.photo{
+
+    width: 420px;
+    background:#ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    transition: 0.3s;
+}
+.photo:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}.photo img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* object-fit: cover; */
+}.photo h2{
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+    
+}.photo p{
+    font-size: 16px;
+    color: #666666;
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
+.button1{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50%;
+    background-color:yellowgreen;
+    color:white;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.button1:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    
+}
+.button2{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 49.001%;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid black;
+     cursor: pointer;
+}
+.button2:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}

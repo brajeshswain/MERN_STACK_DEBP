@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION IN CSS</title>
+    <Style>
+        .container{
+            height:3000px;
+            width:3000px;
+            background-color: gainsboro;
+            margin: 100px;
+            
+        }
+        .Box{
+            height:100px;
+            width:100px; 
+            /* display:flex;
+            justify-content: center;
+            align-items: center; */
+            
+        }
+        .Red{
+            background-color: red;
+            position: relative;
+            left:200px;
+            top:100px;
+        }
+        .green{
+            background-color: green;
+            position:relative;
+            left:100px;
+            /* top:100px; */
+        }
+        .blue{
+            background-color: blue;
+            /* position:relative; */
+            position: fixed;
+            top:100px;
+        }
+        .purple{
+            background-color: purple;
+            position: sticky;
+            top:100px;
+        }
+        .fixed{
+            background-color:black;
+            /* position:fixed; */
+            height: 200vh;
+        }
+
+    </Style>
+</head>
+<body>
+    <Div class="container">
+        <div class="Box Red"></div>
+        <div class="Box green"></div>
+        <div class="Box blue"></div>
+        <div class="Box purple"></div>
+
+    </Div>
+    <div  class=" Box fixed"></div>
+    
+</body>
+</html>

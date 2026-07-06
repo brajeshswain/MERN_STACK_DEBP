@@ -1,0 +1,8 @@
+#mood{
+    background-color:red;
+    color: aqua;
+}
+#mood:hover{
+    background-color:black;
+    color: white;
+}
