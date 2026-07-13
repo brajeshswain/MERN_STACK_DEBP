@@ -78,7 +78,7 @@
 
 //charAt method
 
-// let str ="web socket API"
-// console.log(str.charAt.)
+let str ="web socket API"
+console.log(str.charAt)
 
 

@@ -91,18 +91,18 @@ Datatype in javascript :-
     My_schoole()
 
     
-    Operator in js:-
+    Operator in JS :-
 
-    - operator are key features to do some task or operate some taks.
-    - ex. A+B
-    - in the above example A&B are the operands & "+" sign is our operator.
-    - in javascript , there are 5 types of operator are there....
+- operator are key features to do some task.
+- ex. A + B
+- In the above example A & B are the operandds & "+" sign is our operator.
+- In javascript, there are 5 types of operator are there...
 
-    1. Arithmetic Operator ->(+, -, *, /, %, **)
-    2. assigement Operator ->
-    3. comparison operators->
-    4. logical operators->
-    5. unary operators->
+1. Arithmetic operator -> (+, -, *, /, %, **)
+2. Assignment operator -> (=, +=, -=, *=, /=, %=, **=)
+3. Comparision operator -> (==, !==, ===, <, >, <=, >=)
+4. Logical operator -> Logical AND (&&), Logical OR (||), Logical NOT (!)
+5. Unary operator -> Increment (++), decrement (--)
 
 Coditional statement ->
 
@@ -215,7 +215,8 @@ string interpolation :-
 escape symbol in string :-
 
 1. \n -> new line
-2. \n -> new tab
+2. \t -> new tab
+3. \r -> carriage return
 
 
 string method :-
@@ -224,7 +225,7 @@ string method :-
 2. str.toLowercase()
 3. str.trim()
 4. str.slice(start,(end-1))
-5. str.conact(str2)
+5. str.concat(str2)
 6. str.replace(oldVal,newVal)
 7. str.replaceAll(oldVAl,newVAl)
 8. str.CharAt(idx)
@@ -358,7 +359,3 @@ for Each loop in array :-
 -arr.forEach(callbackFunction)
 - callbackFunction -> it is a function to execute for each element in the array.
 - callbackFunction is a function that passed as an arugument of another function.
-
-
-
-
