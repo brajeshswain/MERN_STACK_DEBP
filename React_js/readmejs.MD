@@ -54,3 +54,38 @@ File structure of a react js folder ->
 5. src(source folder) ->
 
 - it is the main source folder where we can create file & write code in it.
+
+
+6. Public ->
+ - Public is used to take our website logo that show publically and we can store images and video in that public folder by creating separate separate folder.
+
+7. Node Modules -> 
+ - auto manages extrenal depandancies that need for execute the project and we can say it is the god father of the react js project.
+
+props in Reacts js :-
+
+- props stands for properties.
+- props are passed to components via HTML attributes.
+
+
+Practice Question From react js :-
+
+1. Create a functional component called "Greeting" that takes a "name" Prop and display"Hello ,<name>!" 
+
+expected output -> Hello , Rakesh !
+
+2. create a component "userCard" that takes props: name, age & city and display them in a card format. 
+
+expected output -> 
+name : Rakesh 
+Age : 23 
+City : Bhubaneswar
+
+3. create a component Button that accepts a label prop. if no label is passed, it should display "Click Me".
+
+4. create a parent component App that passes a message prop to a child component "MessageBox". The child should display the message. 
+
+expected output -> App -> MessageBox
+
+
+rakeshmohapatra2078@gmail.com
