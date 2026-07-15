@@ -1,13 +1,14 @@
 import React from 'react'
 import Title from '../components/Title'
-import UnOrdered from '../components/UnOrdered'
+// import UnOrdered from '../components/UnOrdered'
 const About = () => {
   return (
     <div>
-      <Title name ="Brajesh" />
-      <Title name="Nigam" />
-      <Title name ="swain" />
-      
+      <Title name="Brajesh"
+        ContactNumber={9938363373}
+        collegeName={"NIT"}
+        rollNumber={18}
+        schoolName={"Dantia"} />
     </div>
   )
 }
