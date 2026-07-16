@@ -25,7 +25,8 @@
 import React from 'react'
 
 const Student = () => {
-
+  let passCount = 0;
+  let failCount = 0;
   const students = [
     { id: 1, name: "Rahul", marks: 78 },
     { id: 2, name: "Priya", marks: 45 },
@@ -39,11 +40,12 @@ const Student = () => {
         <div key={id}>
           <h3>Name:{name}</h3>
           <p>Marks:{marks}</p>
-          <p>Result:{marks >= 50 ? "pass" : "fail"}</p>
+          <p>Result:{marks >= 50 ? (passCount++ ,"pass" ) : (failCount++,"fail")}</p>
         </div>
 
       ))}
-
+      Total pass:{passCount}
+      Total fail:{failCount}
     </div>
   )
 }

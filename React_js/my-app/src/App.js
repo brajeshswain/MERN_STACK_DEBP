@@ -7,7 +7,12 @@ import './App.css';
 // import Title from './Usercard/Title';
 // import MessageBox from './Usercard/MessageBox';
 // import Even from './Usercard/Even';
-import Student from './Usercard/Student';
+// import Student from './Usercard/Student';
+// import Product from './Usercard/Product';
+// import Salary from './Usercard/Salary';
+// import Shoping from './Usercard/Shoping';
+// import Cricket from './Usercard/Cricket';
+import Voting from './Usercard/Voting';
 
 
 function App() {
@@ -20,9 +25,14 @@ function App() {
       {/* <Userlist/> */}
       {/* <Usescard /> */}
       {/* <MessageBox message="hii brother"  /> */}
-      
+
       {/* <Even /> */}
-      <Student/>
+      {/* <Student/> */}
+      {/* <Product/> */}
+      {/* <Salary/> */}
+      {/* <Shoping/> */}
+      {/* <Cricket/> */}
+      <Voting/>
 
     </div>
   );
