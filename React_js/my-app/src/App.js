@@ -12,7 +12,10 @@ import './App.css';
 // import Salary from './Usercard/Salary';
 // import Shoping from './Usercard/Shoping';
 // import Cricket from './Usercard/Cricket';
-import Voting from './Usercard/Voting';
+// import Voting from './Usercard/Voting';
+// import Electri from './Usercard/Electri';
+import Percentage from './Usercard/Percentage';
+// import Online_order from './Usercard/Online_order';
 
 
 function App() {
@@ -32,7 +35,10 @@ function App() {
       {/* <Salary/> */}
       {/* <Shoping/> */}
       {/* <Cricket/> */}
-      <Voting/>
+      {/* <Voting/> */}
+      {/* <Electri/> */}
+      <Percentage/>
+      {/* <Online_order/> */}
 
     </div>
   );
