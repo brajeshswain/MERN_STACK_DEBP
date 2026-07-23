@@ -89,3 +89,113 @@ expected output -> App -> MessageBox
 
 
 rakeshmohapatra2078@gmail.com
+
+React Hooks:-
+
+- Hooks allow function to have  access to state & other react features without using classes.
+- They provides diret API to react concept like props,state,context etc....
+- basically hook is a function that let us "hook into" react state and lifecycle feature from functional component.
+-  there are many types of hooks are there but most used hooks are...
+
+1. useState()
+2. useeffect()
+3. useRef()
+4. useMemo()
+5. useContext()
+6. useReducer()
+7. useCallback()
+
+1. useState() Hook in React ->
+
+- the react useState() hook allows us to track the state of a functional component.
+- state generally refers to data or properties that need to be tracking in an application.
+
+import useState()->
+
+import{useState} from 'react'
+
+initialize useState ->
+- we initialize our state by calling useState in our function component.
+- useState accepts an initial state & return two value.
+
+1. the current state
+2. a function that updates the state
+
+synatx -> 
+const [state ,setState]=useState("initial value")
+ex-> const[color,setColor]= useState("red")
+
+useState() questions->
+1. Toggle Button(on/off)
+- create a toogle button that toggle between ON & OFF
+- expected output:- ON-> OFF-> ON
+2. create a TODO list
+- user can add task
+- tasks are displayed i a list
+- each task has a delete button
+3. Show/Hide password
+- toggle button (show/hide)
+- change input type dynamially
+
+
+
+useEffect() Hook in React :-
+
+- useEffect is  a react hoot that lets us perform side effect in functional component, such as.....
+
+    - feacting data from API
+    - updating the DOM
+    - setting up timer
+    - adding event listener
+
+syntax :-
+
+import{useEffect} from "react";
+
+useEffect(()=>{
+    //add side effect here
+    return()=>{
+        //cleanup code(optinal)
+    }
+},[dependencies]);
+
+1. Runs on Every Render ->
+
+- if you don't provide any dependency array ,the effect runs after every render.
+
+Every render.
+Syntax :-
+
+useEffect(()=>{
+    console.log("component rerendered")
+})
+
+2. Runs only once (on Mount)
+- pass an empty dependency array[].
+
+Syntax :-
+useEfefct(()=>{
+    console.log("Component Mounted")
+},[]);
+
+
+3. Runs when dependency changes
+ - the effects runs only when the "count/dependecy" changes.
+
+syntax :-
+
+useEffect(()=>{
+    console.log("component Mounted")
+},[dependency]);
+
+
+4. cleanup functionin useEffect
+- useful for removing event listener ,clearing timer etc....
+
+Syntax :-
+useEffect(()=>{
+    //add side effects here
+    return()=>{
+        //cleanup code(optinal)
+    }
+},[dependency]);

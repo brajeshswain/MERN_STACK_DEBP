@@ -14,8 +14,12 @@ import './App.css';
 // import Cricket from './Usercard/Cricket';
 // import Voting from './Usercard/Voting';
 // import Electri from './Usercard/Electri';
-import Percentage from './Usercard/Percentage';
+// import Percentage from './Usercard/Percentage';
 // import Online_order from './Usercard/Online_order';
+// import RunsEveryRender from './react-Hook/useeffect/RunsEveryRender';
+// import RUnsOnlyOnce from './react-Hook/RUnsOnlyOnce';
+// import RunsDependecyChanges from './react-Hook/RunsDependecyChanges';
+import Innerfunction from './react-Hook/Innerfunction';
 
 
 function App() {
@@ -37,8 +41,12 @@ function App() {
       {/* <Cricket/> */}
       {/* <Voting/> */}
       {/* <Electri/> */}
-      <Percentage/>
+      {/* <Percentage/> */}
       {/* <Online_order/> */}
+      {/* <RunsEveryRender/> */}
+      {/* <RUnsOnlyOnce/> */}
+      {/* <RunsDependecyChanges/> */}
+      <Innerfunction/>
 
     </div>
   );

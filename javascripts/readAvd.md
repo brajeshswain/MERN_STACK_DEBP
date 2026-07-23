@@ -127,7 +127,7 @@ callback in javascript :-
 
 callback hel :-
 
--it's nested callback stacked below one after another forming a pyramid structure.
+- it's nested callback stacked below one after another forming a pyramid structure.
 - this style of programming becomes difficult to understand & manage.
 
 promise in JS :-
@@ -200,8 +200,28 @@ status code of Node js :-
 - 408 -> request timeout
 - 500 -> internal server error
 - 502 -> bed gateway
-- 504 -> gateway timeout_
+- 504 -> gateway timeout
 
+Closure in javascript :-
+- A closure is the combination of a function and it's lexical environement, allowing the function to access variable from it's outer scope even the outer function has finished execution.
+
+pratice question :-
+
+1. write a fuction create counter() that....
+- initialize private variable count = 0
+- return an object with two methods.
+    -> increament() - increament count by 1
+    -> gateCount() - return current count.
+2. write a function createMessage(msg) that returns another function,when the returned function is called, it should print the message.
+
+3. create a function add(a) that returns another function which takes  b and returns a+b.
+
+Spread Operator :-
+- the spread operator(...) in javascript is used to expand element of an arry, object or iterable into indivisual elements.
+- simply we can say that spread operator allows you to unpack values from arrays or object.
+
+Higher Order Function :-
+- A function that takes another function as an argument or return a function.
 
 
 pratice Question :-
