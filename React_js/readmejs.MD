@@ -199,3 +199,144 @@ useEffect(()=>{
         //cleanup code(optinal)
     }
 },[dependency]);
+
+Peactice questions:
+
+Practice question on useEffect -> 
+
+1. create a component with a button and input field. print "component rendered" in console every time component re-renders. 
+
+2. create 2 states -> 
+   - count 
+   - name 
+
+   print -> effect triggered
+
+   - only when either count or name changes 
+
+3. create 
+    - one input (text)
+    - one counter (count)
+
+    - print "count effect" only when count changes. Not when typing in input. 
+
+4. create a component where, 
+    - first egffect runs only once 
+    - second effect runs on every render 
+    - third effect runs only when count changes. 
+
+5. create a login system with a boolean state "isLoggedIn". 
+
+    - when user logs in -> print "user Logged In"
+    - when user logs out -> do nothing. 
+
+    - condition -> useEffect should runs only when "isLoggedIn" becomes true. 
+
+Hint -> use dependency [isLoggedIn] & condition inside useEffect.
+
+
+practice Question of useMemo -> 
+
+1. Remove duplicate from list (using useMemo)
+    - create an array with duplicate values. 
+    - arr = [1,2,2,3,4,4,5]
+    - use useMemo to return a unique list
+    - add an input field 
+
+2. Calculate total price 
+    - create a list of product 
+    - cart = [
+        {
+            name: 'Shirt', 
+            price: 500
+        }, 
+        {
+            name: 'Shoose', 
+            price: 1500
+        }, 
+        {
+            name: 'Cap', 
+            price: 300
+        }, 
+    ]
+    - calculate total price using useMemo() 
+    - add a text input
+
+3. Count Even Numbers 
+    - create a large array of numbers (ex. 1 to 10,000)
+    - count how many nubers are even
+    - use useMemo for counting 
+    - add another state (like toggle button
+
+
+useCallback hooks in react js :-
+
+- useCallback is a react hook that re,member a function so it does not get re-created on every render.
+
+why we use it:
+
+- in react , every time a component re-render & function are created again.
+- this can cause unnecessarry re-render in child component.
+- so useCallback helps to prevent that problems.
+
+- syntax:-
+
+const memorizedFunction= useCallback(()=>{
+  // function logic
+}, [dependencies])
+
+# use context hooks in react js:------->>>>>>>>
+useReducer Hooks in react js :-
+
+  - useReducer is react Hook used to manage complex state logics.
+  - we can say it is the powerful version of useState.
+  - Best to use , when:
+    - stage has multiple values
+    - logic is complex
+    - many action changes the state.
+
+  - Syntax:
+    
+    const [ state, dispatch] = useReducer(reducer,initialState);
+
+    - where,state-> current value
+            dispatch-> function to send action
+            rediucer -> function tha updates the state
+
+- Virtual dom is a lightweight copy of thr real DOM.
+- like we can say ->
+    - real dom -> Actual House
+    - virtual Dom -> a blueprint(copy of the house)
+ 
+ Process of thr virtual dom ->
+ - instead of changing the real dom every time,react uses virtual dom for
+    - updates the virtual dom
+    - compares it with the previous version
+    - changes only the necessary parts in real dom.
+
+
+why virtual dom is useful ?
+
+- faster update
+- efficient rendering
+- avoid unnecessary full page reload
+- improve performance
+
+React Router Dom in react js :-
+
+- react Router dom ia a library used in react to handle navigation between pages without reloading the whole website.
+
+- take a example->
+    - /home
+    - /about
+    - /contact
+
+- react router lets you switch between these pages without refreshing the page.
+
+Axios in recat js :-
+
+- axios is a popular javascript library used to make HTTP request (API call) from the browser.
+    - it help you fetch data from API's
+    - works with GET, POST ,PUT,PATCH,DELETE
+    - return data in clean json format
+    - mainlly easier than fatch()

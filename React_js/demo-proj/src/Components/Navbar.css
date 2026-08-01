@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5px;
+    background-color: aqua;
+    color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 ,h5{
+  color: blue;
+}
+
+p {
+  color: #333;
+}
+/* div{
+    background-color: greenyellow;
+} */
+ol{
+  padding: 2px;
+  margin: 1px;
+  
+}

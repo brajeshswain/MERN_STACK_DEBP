@@ -19,7 +19,10 @@ import './App.css';
 // import RunsEveryRender from './react-Hook/useeffect/RunsEveryRender';
 // import RUnsOnlyOnce from './react-Hook/RUnsOnlyOnce';
 // import RunsDependecyChanges from './react-Hook/RunsDependecyChanges';
-import Innerfunction from './react-Hook/Innerfunction';
+// import Innerfunction from './react-Hook/Innerfunction';
+// import Color from './myfolder/Color';
+// import VirtualDom from './VirtualDom';
+import AxiosExample from './screens/AxiosExample';
 
 
 function App() {
@@ -32,7 +35,6 @@ function App() {
       {/* <Userlist/> */}
       {/* <Usescard /> */}
       {/* <MessageBox message="hii brother"  /> */}
-
       {/* <Even /> */}
       {/* <Student/> */}
       {/* <Product/> */}
@@ -46,7 +48,10 @@ function App() {
       {/* <RunsEveryRender/> */}
       {/* <RUnsOnlyOnce/> */}
       {/* <RunsDependecyChanges/> */}
-      <Innerfunction/>
+      {/* <Innerfunction/> */}
+      {/* <Color/> */}
+      {/* <VirtualDom/> */}
+      <AxiosExample/>
 
     </div>
   );
