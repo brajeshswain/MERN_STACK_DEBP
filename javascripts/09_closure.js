@@ -106,12 +106,43 @@
 // // sayhii()
 
 
-function add(a){
-    return function(b){
-        return a+b;
+// function add(a){
+//     return function(b){
+//         return a+b;
         
-    }
+//     }
 
+// }
+// const ad=add(4)
+// console.log(ad(7))
+
+// let decrement=0
+// function add()
+// {
+    
+// let increment=0
+//     function inner(){
+//         increment++
+//         console.log(increment)
+
+
+//     }
+//     return inner
+// }
+// const closure = add()
+// closure()
+// closure()
+
+function dec(){
+    let decremnet =0
+    function descm(){
+        decremnet--
+        console.log(decremnet)
+    }
+    return descm
+    
 }
-const ad=add(4)
-console.log(ad(7))
+const closure = dec()
+
+closure()
+closure()

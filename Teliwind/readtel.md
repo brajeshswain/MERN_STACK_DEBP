@@ -4,3 +4,11 @@ Tailwind css:-
 - with utility classes, we can style element different layout basis.
 - it is highly customizable.low level css framework.
 - this css framework packed with classes like flex,pt-4 etc...
+
+
+
+
+
+
+
+Intall tailwind css using vite

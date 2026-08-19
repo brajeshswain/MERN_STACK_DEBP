@@ -26,8 +26,15 @@
 // }
 // console.log(upuser)
 
-function add(a,b,c){
-    return a+b+c;
+// function add(a,b,c){
+//     return a+b+c;
 
+// }
+// const nums=[1,2,3]
+
+// rest Operator ->
+
+function add(...number){
+    console.log(number)
 }
-const nums=[1,2,3]
+add(10,20,30)

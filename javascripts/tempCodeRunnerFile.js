@@ -1,20 +1,7 @@
-let a = 10;
-// console.log(a) //10
 
-// a+= 5 // a = a + 5
-// console.log(a) //15
+ const number =[10,20,30,40]
 
-// a-= 5 // a = a - 5
-// console.log(a) //10
-
-// a*=5 // a = a * 5
-// console.log(a) //50
-
-// a/=5 // a = a / 5
-// console.log(a) //10
-
-// a%=5 // a = a % 5
-// console.log(a) //0
-
-// a**=5 // a = a ** 5
-// console.log(a) //0
+ const total = number.reduce((sum,num)=>{
+    return sum+num
+ })
+ console.log( total)

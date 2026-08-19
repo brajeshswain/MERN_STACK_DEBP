@@ -15,8 +15,8 @@
 // let item = "pen"
 // let price = 20
 
-// // let object =`the cost of the ${obj.item} is ${obj.price} rupees`
-// let object =`the cost of the ${item} is ${price} rupees`
+// let object =`the cost of the ${obj.item} is ${obj.price} rupees`
+// // let object =`the cost of the ${item} is ${price} rupees`
 // console.log( object)
 
 
@@ -47,7 +47,7 @@
 // console.log(str)
 
 //trim method ->
-// let str= " hii bibhuti"
+// let str= "    hii   bibhuti    "
 // console.log(str.trim())
 // console.log(str.replaceAll("hii","hello"))
 // console.log(str.replaceAll("bibhuti","babu"))

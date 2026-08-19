@@ -40,6 +40,7 @@ Datatype in javascript :-
 
     1. primitive datatypes
      - in javascript there are 7 types of primitive datatypes are there.....
+
       1. Number - number are the type of datatypes those it contain some numerical values.
       2. Boolean - in boolean datatypes we got boolean values like true/false.
       3. undefined - the data is not define
@@ -222,14 +223,27 @@ escape symbol in string :-
 string method :-
 
 1. str.toUppercase()->// note string can't be changed original character so that  why we will take one another variable to do this.
-2. str.toLowercase()
-3. str.trim()
-4. str.slice(start,(end-1))
-5. str.concat(str2)
-6. str.replace(oldVal,newVal)
-7. str.replaceAll(oldVAl,newVAl)
-8. str.CharAt(idx)
-
+2. str.toLowercase() - convert all to Upperletter
+3. str.trim() - remove white space
+4. str.slice(start,(end-1)) - print given starting index to ending-1 index 
+5. str.concat(str2) - to add two string to one string
+6. str.replace(oldVal,newVal) - replace a old string to new string in a sentence in onevalue means fast value
+7. str.replaceAll(oldVAl,newVAl) - replace old string to new string in whole paragraph 
+8. str.CharAt(idx) - print one value in the index value in just like
+                    Ex{
+                        let str="Hello Kjr"
+                        A=str.charAt(1)
+                        console.log(A)
+                        o/p=e
+                    }
+                       Ex{
+                        let str=" Hello Kjr"
+                        A=str.charAt(1)
+                        console.log(H)
+                        o/p=e
+                    }
+                    bcz= it fast has a space.
+                    
 Array in javascripts :-
 
 - array is collection of items.

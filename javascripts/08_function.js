@@ -38,15 +38,15 @@
 
 //for each loop ->
 
-// let arr =[1,2,3,4,5,6,7,8,9]
+let arr =[1,2,3,4,5,6,7,8,9]
 // arr.forEach(function printVal(val){
 // console.log(val)
 // })
 
-// arr.forEach((val) =>{
-//     console.log(val)
-// }
-// )
+arr.forEach((val) =>{
+    console.log(val)
+}
+)
 
 // let arr1=["pune","goa","hariyana","panjab"]
 // arr1.forEach((val)=>{
@@ -80,10 +80,10 @@
 // console.log(newArr)
 
 
-let marks=[89,86,34,91,32,64,92,45]
+// let marks=[89,86,34,91,32,64,92,45]
 
-let newMarks = marks.filter((num)=>{
-    return num >= 90;
-})
-console.log(marks)
-console.log(newMarks)
+// let newMarks = marks.filter((num)=>{
+//     return num >= 90;
+// })
+// console.log(marks)
+// console.log(newMarks)

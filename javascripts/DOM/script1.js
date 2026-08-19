@@ -1,11 +1,15 @@
-// let division = document.querySelector("div")
-// console.log(division)
+let division = document.querySelector("div")
+console.log(division)
 
-// let demo = division.getAttribute("id")
-// console.log(demo)
+let demo  = division.getAttribute("id")
+console.log(demo)
+box.style.backgroundColor="red"
 
-// let para = document.querySelector("p")
-// console.log(para.setAttribute("newclass","pigon"))
+
+
+let para = document.querySelector("p")
+console.log(para.setAttribute("newclass","pigon"))
+para.style.backgroundColor="green"
 
 // let div =document.querySelector("div")
 // div.style.backgroundColor="green"
@@ -16,11 +20,11 @@
 // div.innerHTML="NIT college"
 // div.style.visibility="hidden"
 
-let newbtn = document.createElement("button")
-newbtn.innerText="click me"
-console.log(newbtn)
+// let newbtn = document.createElement("button")
+// newbtn.innerText="click me"
+// console.log(newbtn)
 
-let div = document.querySelector("div")
+// let div = document.querySelector("div")
 // div.append(newbtn)
 // div.prepend(newbtn)
 // div.after(newbtn)
@@ -28,5 +32,5 @@ let div = document.querySelector("div")
 div.remove()
 
 // div.remove(newbtn)
-let para = document.querySelector("para")
-para.remove()
+// let para = document.querySelector("para")
+// para.remove()

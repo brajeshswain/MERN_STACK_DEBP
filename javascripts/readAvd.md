@@ -8,6 +8,7 @@ Advance Javascripts :-
 DOM in javascripts :-
 
 - DOM stands for document object model.
+- dom is a programming interface represent in html,css
 - When a web page is loaded , the browser create a document object model of that page.
 - The  HTML dom model is constructed as a tree like structure.
 
@@ -220,6 +221,12 @@ Spread Operator :-
 - the spread operator(...) in javascript is used to expand element of an arry, object or iterable into indivisual elements.
 - simply we can say that spread operator allows you to unpack values from arrays or object.
 
+Rest Operator :-
+- The rest operator(...) collects multiple values into an array.
+
+spread -> expand (expand the array)
+rest -> collect (collect the values to marks array)
+
 Higher Order Function :-
 - A function that takes another function as an argument or return a function.
 
@@ -228,3 +235,29 @@ pratice Question :-
 
 1. create a counter in javascript(increment & decreament).
 2. create a simple web page with a button that changes text when clicked.
+
+
+
+call(), apply(), & bind() in javascript ->
+
+- in javascripts call() , apply() & bind() are used to control  the value of 'this' inside a function.
+
+
+
+imp. coding question for interview ->
+
+1. Reverse a string
+2. check palindrome 
+3. find largest number
+4. find second largest number
+5. remove duplicate from array
+6. count frequency of character
+7. find duplicate element
+8. flatten an array
+9. sort an array without sort().
+10. find missing number
+11. check anagram
+12. fibonachi series
+13. factorial
+14. prime number
+15. find intersection of two array
