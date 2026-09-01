@@ -1,4 +1,5 @@
 // const accountID = 542210510001817
+// const ccountID = 542210510001817
 // let accountEmail = "bikubrajesh@gmail.com"   
 // var accountpassword ="1234"
 // accountcity = "bbsr"
@@ -43,7 +44,7 @@
 // console.log(bibhu) //false
 // console.log(typeof(bibhu)) //boolean
 
-// //symbol
+//symbol
 // let y = Symbol("hello")
 // console.log(y) //Symbol("hello")
 // console.log(y.description) //hello
@@ -65,15 +66,15 @@
 
 //object ->
 
-// let Bibhu ={
-//     "name" : "bibhu babu",
-//     "phone-no":7978180031,
-//     "address":"keonjhar",
-//     "carrier":"very Good"
+let Bibhu ={
+    "name": "bibhu babu",
+    "phone-no":7978180031,
+    "address":"keonjhar",
+    "carrier":"very Good"
 
-// }
+}
 
-// console.log(hari)
+console.log(Bibhu)
 
 // function My_schoole(){
 //         console.log("ilove my school")

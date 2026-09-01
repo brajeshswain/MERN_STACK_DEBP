@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Ramesh",
+        "age": 22,
+        "course": "MERN",
+        "email": "ramesh@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Brajesh",
+        "age": 23,
+        "course": "JAVA",
+        "email": "brajesh@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "nigam",
+        "age": 25,
+        "course": "cannon tech",
+        "email": "nigam@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "pintu",
+        "age": 21,
+        "course": "MBA",
+        "email": "pintu@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "babani",
+        "age": 27,
+        "course": "bba",
+        "email": "babani@gmail.com"
+    },
+    {
+        "id": 6,
+        "name": "lipi",
+        "age": "20",
+        "course": "MCA",
+        "email": "lipi@gmail.com"
+    },
+    {
+        "id": 7,
+        "name": "SIBA",
+        "age": "20",
+        "course": "BBA",
+        "email": "siba@gmail.com"
+    }
+]

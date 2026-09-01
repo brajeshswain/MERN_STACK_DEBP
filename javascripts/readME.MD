@@ -191,7 +191,7 @@ do{
 
 
 4. for-in -> it iterates on string  & array.
-5. for-of loop -> it iterates on objects.
+5. for-of -> it iterates on objects.
 
 
 String in javascript :-
@@ -351,18 +351,18 @@ pratice question in (tcs ):-
 
 Map Method/Function in js :-
 
-- create a new array with result of some operation. the value it's callback return are used to from a new array . normally we create a new array by calling the function in every array element.
+   - create a new array with result of some operation. the value it's callback return are used to from a new array . normally we create a new array by calling the function in every array element.
 
-- map does not change the original array.
-- it does not execute the function for empty array.
-- Syntax :-
+   - map does not change the original array.
+   - it does not execute the function for empty array.
+   - Syntax :-
 
 arr.map (callbackfunction (value,index.array))
 
 Filter method/function in js  :-
 
-- create a new array of element that gives true for a condition/filterization.
-- ex. all even in the given digits.
+  - create a new array of element that gives true for a condition/filterization.
+  - ex. all even in the given digits.
 
 let newArr = arr. filter((val)=>{
     return val % 2 ===0;
@@ -370,6 +370,6 @@ let newArr = arr. filter((val)=>{
 
 for Each loop in array :-
 
--arr.forEach(callbackFunction)
-- callbackFunction -> it is a function to execute for each element in the array.
-- callbackFunction is a function that passed as an arugument of another function.
+  - arr.forEach(callbackFunction)
+  - callbackFunction -> it is a function to execute for each element in the array.
+  - callbackFunction is a function that passed as an arugument of another function.
