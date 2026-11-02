@@ -62,7 +62,7 @@ File structure of a react js folder ->
 7. Node Modules -> 
  - auto manages extrenal depandancies that need for execute the project and we can say it is the god father of the react js project.
 
-props in Reacts js :-
+# props in Reacts js :-
 
 - props stands for properties.
 - props are passed to components via HTML attributes.
@@ -90,7 +90,7 @@ expected output -> App -> MessageBox
 
 rakeshmohapatra2078@gmail.com
 
-React Hooks:-
+# React Hooks:-
 
 - Hooks allow function to have  access to state & other react features without using classes.
 - They provides diret API to react concept like props,state,context etc....
@@ -105,7 +105,7 @@ React Hooks:-
 6. useReducer()
 7. useCallback()
 
-1. useState() Hook in React ->
+# 1. useState() Hook in React ->
 
 - the react useState() hook allows us to track the state of a functional component.
 - state generally refers to data or properties that need to be tracking in an application.
@@ -121,7 +121,7 @@ initialize useState ->
 1. the current state
 2. a function that updates the state
 
-synatx -> 
+* synatx -> 
 const [state ,setState]=useState("initial value")
 ex-> const[color,setColor]= useState("red")
 
@@ -139,7 +139,7 @@ useState() questions->
 
 
 
-useEffect() Hook in React :-
+# useEffect() Hook in React :-
 
 - useEffect is  a react hoot that lets us perform side effect in functional component, such as.....
 
@@ -148,7 +148,7 @@ useEffect() Hook in React :-
     - setting up timer
     - adding event listener
 
-syntax :-
+  * syntax :-
 
 import{useEffect} from "react";
 
@@ -164,7 +164,7 @@ useEffect(()=>{
 - if you don't provide any dependency array ,the effect runs after every render.
 
 Every render.
-Syntax :-
+* Syntax :-
 
 useEffect(()=>{
     console.log("component rerendered")
@@ -173,7 +173,7 @@ useEffect(()=>{
 2. Runs only once (on Mount)
 - pass an empty dependency array[].
 
-Syntax :-
+* Syntax :-
 useEfefct(()=>{
     console.log("Component Mounted")
 },[]);
@@ -235,7 +235,7 @@ Practice question on useEffect ->
 Hint -> use dependency [isLoggedIn] & condition inside useEffect.
 
 
-practice Question of useMemo -> 
+# practice Question of useMemo -> 
 
 1. Remove duplicate from list (using useMemo)
     - create an array with duplicate values. 
@@ -269,7 +269,7 @@ practice Question of useMemo ->
     - add another state (like toggle button
 
 
-useCallback hooks in react js :-
+# useCallback hooks in react js :-
 
 - useCallback is a react hook that re,member a function so it does not get re-created on every render.
 
@@ -340,3 +340,16 @@ Axios in recat js :-
     - works with GET, POST ,PUT,PATCH,DELETE
     - return data in clean json format
     - mainlly easier than fatch()
+
+
+# React Hook all Methods & main use
+usestate= store/ change State
+UseEffect = side effect/ Api call
+USeContext= share data
+useRef=DOM reference
+useMemo Cache Calculated value
+usecallback =cache function
+useReducer= complex state management
+useLayoutEffect=DOM work before paint
+UseID=Generate Unique IDs
+UseTransition= Non-urgent UI updates

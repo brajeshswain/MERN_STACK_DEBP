@@ -20,13 +20,13 @@ app.post("/send-otp",(req,res)=>{
     if (!phoneNumber) {
         return res.status(400).json({ meassage: "Phone number is required" });
     }
-    generateOTP = generateOTP();
-    console.log("OTP",generateOTP);
+    generatedOTP = generateOTP();
+    console.log("OTP",generatedOTP);
     res.json({ message: "OTP sent successfully" });
 })
 
 // verify OTP ->
-app.post("/verift-otp",(req ,res)=>{
+app.post("/verify-otp",(req ,res)=>{
     const{phone,otp}=req.body;
 
     if (!phone||!otp){
@@ -34,7 +34,7 @@ app.post("/verift-otp",(req ,res)=>{
             message:"phone number & otp is required"
         })
     }
-    if(Number(otp)!==generateOTP){
+    if(Number(otp)!==generatedOTP){
         return req.status(401).json({
             message:"invalid OTP"
         })

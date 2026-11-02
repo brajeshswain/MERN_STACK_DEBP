@@ -1,7 +1,7 @@
 Node js; -
 
 - Node js is the runtime enviorment of js.
-- the famous scientest ryan dahl developed node js by combination of v8 engine & c++.
+- the famous scientest RYAB DAHL developed node js by combination of v8 engine & c++.
 - Node js is an event driven js runtime enviorment build on chrome's v8 engine that enabkes , high performance server side application and API development using js.
 
 

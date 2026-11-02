@@ -67,7 +67,7 @@ common methods of authentication :-
 - Google / github
 - session based login
 
-2. Authorization - "What are you allowed to do ....?"
+2. Authorization - "What are you allowed to do ....? " / permission to do something
  
  - Authorization happen after authentication.
  - it determine what an authenticated user is allowed to access or perfrom.
